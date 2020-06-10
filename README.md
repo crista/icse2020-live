@@ -1,3 +1,3 @@
 # icse2020-live
 
-Assets for ICSE 2020 production
+Assets and Guides for ICSE 2020 production
