@@ -15,6 +15,8 @@ with
 
 After correcting the paths you can import the scene colletion in OBS under "Scene Collections" → "Import" → "Collection Path": select the file `obs/ICSE_Scenes.json`.
 
+For more information about how to setup the scenes with your computer & capturing the correct zoom windows please check the OBS'ers checklist :)
+
 ## OBS Sound Setup
 Only sound from the Zoom session should be rerouted to OBS.
 We have identified several possibilities to realize this:
@@ -38,26 +40,3 @@ However, the free version overlays noise after 20 minutes.
 
 Loopback is based on the open source tool **Soundflower** (Installation for Mac: https://github.com/mattingalls/Soundflower/releases/tag/2.0b2)
 After installing set Soundflower as audio output device in Zoom & as audio input device in OBS.
-
-## Available Scenes & Setup
-
-### Session 
-TODO - possibly separate slides & speaker window captures?
-
-#### Session Scene Setup
-If the "Zoom" window capture does not automatically pick up the right window on your computer (the window titles change from setup to setup).
-Make sure you joined the Zoom session you want to stream.
-Then right click on the window capture called "Zoom" within the Session scene, select "Properties" and pick your Zoom window in the drop down. You might have to check "Show Windows with empty names"-
-
-### End of Talk
-
-### Break
-
-
-## Protocol for Streaming Sessions
-
-TODO
-### T - 30
-...
-### T - 20
-...

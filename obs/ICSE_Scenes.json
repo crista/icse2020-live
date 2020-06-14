@@ -12,7 +12,7 @@
             "libobs.unmute": []
         },
         "id": "wasapi_input_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux",
@@ -42,7 +42,7 @@
             "libobs.unmute": []
         },
         "id": "wasapi_output_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio",
@@ -72,7 +72,7 @@
             "libobs.unmute": []
         },
         "id": "wasapi_output_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio 2",
@@ -89,8 +89,8 @@
         "versioned_id": "wasapi_output_capture",
         "volume": 0.50794732570648193
     },
-    "current_program_scene": "Break",
-    "current_scene": "Break",
+    "current_program_scene": "Session",
+    "current_scene": "Session",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -100,12 +100,6 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
-        },
-        "captions": {
-            "enabled": false,
-            "lang_id": 1033,
-            "provider": "mssapi",
-            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -169,180 +163,11 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Production Logo 2",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/production/uci seal.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Backgroud",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/images/audience-1868137_1920.jpg"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Livestream",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "color": 4278190300,
-                "font": {
-                    "face": "Arial Rounded MT Bold",
-                    "flags": 0,
-                    "size": 36,
-                    "style": "Regular"
-                },
-                "text": "live stream brought to you by:"
-            },
-            "sync": 0,
-            "versioned_id": "text_gdiplus_v2",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Message",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "font": {
-                    "face": "Candara",
-                    "flags": 0,
-                    "size": 100,
-                    "style": "Regular"
-                },
-                "text": "We'll be right back!"
-            },
-            "sync": 0,
-            "versioned_id": "text_gdiplus_v2",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Production Logo",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/production/UCI_fullwordmarklogo_webblue1.png"
-            },
-            "sync": 0,
-            "versioned_id": "image_source",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Music credits",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "font": {
-                    "face": "Arial",
-                    "flags": 0,
-                    "size": 28,
-                    "style": "Regular"
-                },
-                "text": "Music: https://www.bensound.com\nImage by Pexels from https://pixabay.com/"
-            },
-            "sync": 0,
-            "versioned_id": "text_gdiplus_v2",
-            "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
             "id": "window_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Zoom",
+            "name": "Zoom Slides",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -350,7 +175,9 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "window": "Zoom:ZPContentViewWndClass:Zoom.exe"
+                "owner_name": "zoom.us",
+                "window": 14505,
+                "window_name": "Zoom"
             },
             "sync": 0,
             "versioned_id": "window_capture",
@@ -362,20 +189,12 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.ICSE logo": [],
-                "libobs.hide_scene_item.Production Logo 2": [],
-                "libobs.hide_scene_item.Zoom": [],
-                "libobs.show_scene_item.ICSE logo": [],
-                "libobs.show_scene_item.Production Logo 2": [],
-                "libobs.show_scene_item.Zoom": []
-            },
-            "id": "scene",
+            "hotkeys": {},
+            "id": "text_ft2_source",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Session",
+            "name": "Production Credits",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -383,100 +202,51 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "custom_size": false,
-                "id_counter": 10,
-                "items": [
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 8,
-                        "locked": false,
-                        "name": "ICSE logo",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 886.0
-                        },
-                        "private_settings": {},
-                        "rot": -90.0,
-                        "scale": {
-                            "x": 0.60071945190429688,
-                            "y": 0.60194176435470581
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 50,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 9,
-                        "locked": false,
-                        "name": "Zoom",
-                        "pos": {
-                            "x": 186.0,
-                            "y": 51.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.4095394611358643,
-                            "y": 1.4095890522003174
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Production Logo 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 886.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.844748854637146,
-                            "y": 0.84347826242446899
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    }
-                ]
+                "color1": 4292135543,
+                "color2": 4287983428,
+                "drop_shadow": false,
+                "font": {
+                    "face": "Helvetica",
+                    "flags": 0,
+                    "size": 256,
+                    "style": "Regular"
+                },
+                "outline": false,
+                "text": "Streamed by the Atlantic ICSE Live Team"
             },
             "sync": 0,
-            "versioned_id": "scene",
+            "versioned_id": "text_ft2_source_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Credits",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 26,
+                    "style": "Regular"
+                },
+                "text": "Image credit: Clap Vectors by Vecteezy"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
             "volume": 1.0
         },
         {
@@ -490,7 +260,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "ICSE logo",
+            "name": "Hands clapping",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -498,7 +268,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/icse/icse2020.png"
+                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/images/Applause_Clap_Hands/Applause Clap Hands.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -511,21 +281,17 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Applause": [],
-                "libobs.hide_scene_item.Credits": [],
-                "libobs.hide_scene_item.Hands clapping": [],
-                "libobs.hide_scene_item.Session": [],
-                "libobs.show_scene_item.Applause": [],
-                "libobs.show_scene_item.Credits": [],
-                "libobs.show_scene_item.Hands clapping": [],
-                "libobs.show_scene_item.Session": []
+                "SlideShow.NextSlide": [],
+                "SlideShow.PlayPause": [],
+                "SlideShow.PreviousSlide": [],
+                "SlideShow.Restart": [],
+                "SlideShow.Stop": []
             },
-            "id": "scene",
+            "id": "slideshow",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "End of talk",
+            "name": "Sponsors and Supporters",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -533,164 +299,17 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "custom_size": false,
-                "id_counter": 4,
-                "items": [
+                "files": [
                     {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 1,
-                        "locked": false,
-                        "name": "Session",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 2,
-                        "locked": false,
-                        "name": "Applause",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Hands clapping",
-                        "pos": {
-                            "x": 318.0,
-                            "y": 122.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.97714287042617798,
-                            "y": 0.97755104303359985
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 4,
-                        "locked": false,
-                        "name": "Credits",
-                        "pos": {
-                            "x": 1370.0,
-                            "y": 1054.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
+                        "hidden": false,
+                        "selected": false,
+                        "value": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/sponsors"
                     }
                 ]
             },
             "sync": 0,
-            "versioned_id": "scene",
+            "versioned_id": "slideshow",
             "volume": 1.0
-        },
-        {
-            "balance": 0.5,
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Pause": [],
-                "MediaSource.Play": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Stop": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 195,
-            "monitoring_type": 2,
-            "muted": false,
-            "name": "Applause",
-            "prev_ver": 419430408,
-            "private_settings": {},
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "local_file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/sounds/277019__sandermotions__applause-4.wav"
-            },
-            "sync": 0,
-            "versioned_id": "ffmpeg_source",
-            "volume": 0.062013715505599976
         },
         {
             "balance": 0.5,
@@ -949,17 +568,20 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {
-                "SlideShow.NextSlide": [],
-                "SlideShow.PlayPause": [],
-                "SlideShow.PreviousSlide": [],
-                "SlideShow.Restart": [],
-                "SlideShow.Stop": []
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
-            "id": "slideshow",
-            "mixers": 0,
-            "monitoring_type": 0,
+            "id": "ffmpeg_source",
+            "mixers": 195,
+            "monitoring_type": 2,
             "muted": false,
-            "name": "Sponsors and Supporters",
+            "name": "Applause",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -967,16 +589,164 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "files": [
+                "local_file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/sounds/277019__sandermotions__applause-4.wav"
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 0.062013715505599976
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Applause": [],
+                "libobs.hide_scene_item.Credits": [],
+                "libobs.hide_scene_item.Hands clapping": [],
+                "libobs.hide_scene_item.Session": [],
+                "libobs.show_scene_item.Applause": [],
+                "libobs.show_scene_item.Credits": [],
+                "libobs.show_scene_item.Hands clapping": [],
+                "libobs.show_scene_item.Session": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "End of talk",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 4,
+                "items": [
                     {
-                        "hidden": false,
-                        "selected": false,
-                        "value": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/sponsors"
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Session",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Applause",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Hands clapping",
+                        "pos": {
+                            "x": 318.0,
+                            "y": 122.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.97714287042617798,
+                            "y": 0.97755104303359985
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": false,
+                        "name": "Credits",
+                        "pos": {
+                            "x": 1370.0,
+                            "y": 1054.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
                     }
                 ]
             },
             "sync": 0,
-            "versioned_id": "slideshow",
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -990,7 +760,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Hands clapping",
+            "name": "ICSE logo",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -998,7 +768,244 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/images/Applause_Clap_Hands/Applause Clap Hands.png"
+                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/icse/icse2020.png"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.ICSE logo": [],
+                "libobs.hide_scene_item.Production Credits": [],
+                "libobs.hide_scene_item.Zoom Slides": [],
+                "libobs.hide_scene_item.Zoom Speaker": [],
+                "libobs.show_scene_item.ICSE logo": [],
+                "libobs.show_scene_item.Production Credits": [],
+                "libobs.show_scene_item.Zoom Slides": [],
+                "libobs.show_scene_item.Zoom Speaker": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Session",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 12,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 8,
+                        "locked": false,
+                        "name": "ICSE logo",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 835.00006103515625
+                        },
+                        "private_settings": {},
+                        "rot": -90.0,
+                        "scale": {
+                            "x": 0.60071945190429688,
+                            "y": 0.60194176435470581
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 11,
+                        "locked": false,
+                        "name": "Production Credits",
+                        "pos": {
+                            "x": 703.0,
+                            "y": 1004.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.25794827938079834,
+                            "y": 0.25850340723991394
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 100,
+                        "crop_left": 261,
+                        "crop_right": 259,
+                        "crop_top": 148,
+                        "group_item_backup": false,
+                        "id": 12,
+                        "locked": false,
+                        "name": "Zoom Slides",
+                        "pos": {
+                            "x": 183.0926513671875,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.52316486835479736,
+                            "y": 0.52299463748931885
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 50,
+                        "crop_left": 645,
+                        "crop_right": 650,
+                        "crop_top": 161,
+                        "group_item_backup": false,
+                        "id": 9,
+                        "locked": false,
+                        "name": "Zoom Speaker",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 833.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.29264476895332336,
+                            "y": 0.29196217656135559
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "window_capture",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Zoom Speaker",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "owner_name": "zoom.us",
+                "window": 19358,
+                "window_name": "Zoom Meeting"
+            },
+            "sync": 0,
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Music credits",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "font": {
+                    "face": "Arial",
+                    "flags": 0,
+                    "size": 28,
+                    "style": "Regular"
+                },
+                "text": "Music: https://www.bensound.com\nImage by Pexels from https://pixabay.com/"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Production Logo",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/production/UCI_fullwordmarklogo_webblue1.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -1015,7 +1022,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Credits",
+            "name": "Message",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -1024,15 +1031,72 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "font": {
-                    "face": "Arial",
+                    "face": "Candara",
                     "flags": 0,
-                    "size": 26,
+                    "size": 100,
                     "style": "Regular"
                 },
-                "text": "Image credit: Clap Vectors by Vecteezy"
+                "text": "We'll be right back!"
             },
             "sync": 0,
             "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Livestream",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "color": 4278190300,
+                "font": {
+                    "face": "Arial Rounded MT Bold",
+                    "flags": 0,
+                    "size": 36,
+                    "style": "Regular"
+                },
+                "text": "live stream brought to you by:"
+            },
+            "sync": 0,
+            "versioned_id": "text_gdiplus_v2",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Backgroud",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/images/audience-1868137_1920.jpg"
+            },
+            "sync": 0,
+            "versioned_id": "image_source",
             "volume": 1.0
         }
     ],
