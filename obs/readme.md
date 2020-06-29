@@ -5,7 +5,7 @@ Setup documentation for the OBS-Live teams of ICSE 2020
 After cloning the repository you have to replace the absolute paths in `obs/ICSE_Scenes.json` to match the location of this repository on your computer.
 Replace every
 ```
-X:/Home Cloud/crista-data/conferences and workshops/icse 2020
+/Users/caro/Documents/Conferences/ICSE2020/icse2020-live
 ```
 with
 ```
