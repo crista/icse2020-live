@@ -12,7 +12,7 @@
             "libobs.unmute": []
         },
         "id": "wasapi_input_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux",
@@ -42,7 +42,7 @@
             "libobs.unmute": []
         },
         "id": "wasapi_output_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio",
@@ -72,7 +72,7 @@
             "libobs.unmute": []
         },
         "id": "wasapi_output_capture",
-        "mixers": 255,
+        "mixers": 0,
         "monitoring_type": 0,
         "muted": false,
         "name": "Desktop Audio 2",
@@ -89,8 +89,8 @@
         "versioned_id": "wasapi_output_capture",
         "volume": 0.50794732570648193
     },
-    "current_program_scene": "Break",
-    "current_scene": "Break",
+    "current_program_scene": "Session",
+    "current_scene": "Session",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -100,12 +100,6 @@
             "non_matching_scene": "",
             "switch_if_not_matching": false,
             "switches": []
-        },
-        "captions": {
-            "enabled": false,
-            "lang_id": 1033,
-            "provider": "mssapi",
-            "source": ""
         },
         "output-timer": {
             "autoStartRecordTimer": false,
@@ -155,6 +149,9 @@
             "name": "Session"
         },
         {
+            "name": "Session no Speaker"
+        },
+        {
             "name": "End of talk"
         },
         {
@@ -169,11 +166,11 @@
             "enabled": true,
             "flags": 0,
             "hotkeys": {},
-            "id": "image_source",
+            "id": "window_capture",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Production Logo 2",
+            "name": "Zoom Slides",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -181,10 +178,73 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/production/uci seal.png"
+                "owner_name": "zoom.us",
+                "window": 258172,
+                "window_name": "Zoom"
             },
             "sync": 0,
-            "versioned_id": "image_source",
+            "versioned_id": "window_capture",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Zoom Slides": [],
+                "libobs.show_scene_item.Zoom Slides": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Session no Speaker",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 1,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Zoom Slides",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         },
         {
@@ -206,7 +266,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/images/audience-1868137_1920.jpg"
+                "file": "/Users/caro/Documents/Conferences/ICSE2020/icse2020-live/art/images/audience-1868137_1920.jpg"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -294,7 +354,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/production/UCI_fullwordmarklogo_webblue1.png"
+                "file": "/Users/caro/Documents/Conferences/ICSE2020/icse2020-live/art/production/UCI_fullwordmarklogo_webblue1.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -342,7 +402,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Zoom",
+            "name": "Zoom Speaker",
             "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
@@ -350,7 +410,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "window": "Zoom:ZPContentViewWndClass:Zoom.exe"
+                "owner_name": "zoom.us",
+                "owner_pid": 20830,
+                "window": 254024,
+                "window_name": "Zoom Meeting"
             },
             "sync": 0,
             "versioned_id": "window_capture",
@@ -364,12 +427,10 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.ICSE logo": [],
-                "libobs.hide_scene_item.Production Logo 2": [],
-                "libobs.hide_scene_item.Zoom": [],
-                "libobs.show_scene_item.ICSE logo": [],
-                "libobs.show_scene_item.Production Logo 2": [],
-                "libobs.show_scene_item.Zoom": []
+                "libobs.hide_scene_item.Session no Speaker": [],
+                "libobs.hide_scene_item.Zoom Speaker": [],
+                "libobs.show_scene_item.Session no Speaker": [],
+                "libobs.show_scene_item.Zoom Speaker": []
             },
             "id": "scene",
             "mixers": 0,
@@ -384,7 +445,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 10,
+                "id_counter": 13,
                 "items": [
                     {
                         "align": 5,
@@ -399,18 +460,18 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 8,
+                        "id": 13,
                         "locked": false,
-                        "name": "ICSE logo",
+                        "name": "Session no Speaker",
                         "pos": {
                             "x": 0.0,
-                            "y": 886.0
+                            "y": 0.0
                         },
                         "private_settings": {},
-                        "rot": -90.0,
+                        "rot": 0.0,
                         "scale": {
-                            "x": 0.60071945190429688,
-                            "y": 0.60194176435470581
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -423,52 +484,23 @@
                         },
                         "bounds_align": 0,
                         "bounds_type": 0,
-                        "crop_bottom": 50,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
+                        "crop_bottom": 51,
+                        "crop_left": 215,
+                        "crop_right": 217,
+                        "crop_top": 166,
                         "group_item_backup": false,
                         "id": 9,
                         "locked": false,
-                        "name": "Zoom",
+                        "name": "Zoom Speaker",
                         "pos": {
-                            "x": 186.0,
-                            "y": 51.0
+                            "x": 0.0,
+                            "y": 864.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.4095394611358643,
-                            "y": 1.4095890522003174
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Production Logo 2",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 886.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.844748854637146,
-                            "y": 0.84347826242446899
+                            "x": 0.25672042369842529,
+                            "y": 0.25714287161827087
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -498,7 +530,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/icse/icse2020.png"
+                "file": "/Users/caro/Documents/Conferences/ICSE2020/icse2020-live/art/icse/icse2020.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
@@ -686,7 +718,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "local_file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/sounds/277019__sandermotions__applause-4.wav"
+                "local_file": "/Users/caro/Documents/Conferences/ICSE2020/icse2020-live/art/sounds/277019__sandermotions__applause-4.wav"
             },
             "sync": 0,
             "versioned_id": "ffmpeg_source",
@@ -971,7 +1003,7 @@
                     {
                         "hidden": false,
                         "selected": false,
-                        "value": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/sponsors"
+                        "value": "/Users/caro/Documents/Conferences/ICSE2020/icse2020-live/art/sponsors"
                     }
                 ]
             },
@@ -998,7 +1030,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "X:/Home Cloud/crista-data/conferences and workshops/icse 2020/art/images/Applause_Clap_Hands/Applause Clap Hands.png"
+                "file": "/Users/caro/Documents/Conferences/ICSE2020/icse2020-live/art/images/Applause_Clap_Hands/Applause Clap Hands.png"
             },
             "sync": 0,
             "versioned_id": "image_source",
