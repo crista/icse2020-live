@@ -7,23 +7,20 @@ You can follow the official Zoom documentaion ([here](https://support.zoom.us/hc
 
 - Sign in to the Zoom web portal and go to the settings
 
-![Settings](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/A.png | width=100)
+<img src="https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/A.png" width="250">
 
 - Enable "Allow live stream meetings"
 
-![LiveStreamEnable](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/B.png | width=100)
+<img src="https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/B.png" width="750">
 
-- Enable "Allow live stream meetings"
-
-![LiveStreamEnable](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/B.png | width=100)
 
 - Select "Custom Live Streaming Service"
 
-![CustomLiveStream](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/C.png | width=100)
+<img src="https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/C.png" width="350">
 
 - When you're schedulding the meeting or try to stream for the first time, fill the form below. Stream url is `rtmp://a.rtmp.youtube.com/live2` (the streaming key and live streaming page URL should be shared with you).
 
-![FillTheForm](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/D.png | width=100)
+<img src="https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/D.png" width="350">
 
 ## Procedure
 
@@ -35,7 +32,7 @@ In each session there are four roles: Zoomer, Streamer (a.k.a. OBSer), Session C
 - Then Zoomer creates a break room and send everyone (except Streamer) there. 
 - Next, Streamer turns off his/her camera and streams the screen.
 
-![FillTheForm](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/E.png | width=100)
+<img src="https://raw.githubusercontent.com/noidsirius/icse2020-live/master/stream-zoom/images/E.png">
 
 
 ### T-5m
