@@ -42,7 +42,11 @@ Streamer starts recording.
 
 - Zoomer brings back everyone to the main room (everybody should be mute except the Session Chair). 
 - Session Chair talks and for each presentation, its corresponding Presenter starts their camera (and unmute themselves). 
-- Once the presentation is finished, Streamer should unmute him/herself and plays [Applause Sound](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/art/sounds/277019__sandermotions__applause-4.wav) and then goes mute. 
+- Once the presentation is finished, Streamer should unmute him/herself and plays [Applause Sound](https://raw.githubusercontent.com/noidsirius/icse2020-live/master/art/sounds/277019__sandermotions__applause-4.wav) and then goes mute. Streamer doesn't need to share the screen to play sound, instead follow these steps (adopted from [here](https://it.umn.edu/services-technologies/how-tos/zoom-share-computer-sound-during-screen#sharing-music-or-computer-audio-only))
+  1. Click the Share Screen button in the toolbar
+  2. Click Advanced and choose Music or Computer Sound Only. Once you start sharing, the sound of your desktop will be shared.
+  3. To stop sending audio, simply click Stop Share at the top of your meeting screen.
+  
 - If the Presenter doesn't show up, Zoomer should play the presentor's pre-recorded presentation. 
 
 ### After the sessions
